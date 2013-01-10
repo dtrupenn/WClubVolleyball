@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Penn Women's Club Volleyball</title>
+    <meta name="description" content="upenn, volleyball, Quaker women's volleyball">
+    <meta name="author" content="Dan Trujillo">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- Le Picture Viewer Script -->
+    <script type="text/javascript">
+    	function imgClick(pic){
+    		document.IMG.src=pic;
+    	}
+    </script>
+    
+
+    <!-- Le styles -->
+    <link href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      .centered { 
+      text-align:center; 
+      } 
+      
+      .tabbed {
+      	padding-left: 5em;
+      }
+      
+      .greyed {
+      	opacity: 0.4;
+      	filter: alpha(opacity=40);
+      }
+      
+      .greyed:hover {
+      	opacity: 1.0;
+      	filter: alpha(opacity=100);
+      }
+      
+/*
+      .topright {
+      	position: absolute;
+      	top: 5em;
+      	right: 10em;
+      }
+*/
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+  	<div class="header">
+		<a href="index.html"><img src="logos/siteLogo.png" alt="insgnia" width="320" height="150"/></a>
+<!--
+		<div class="topright">
+			<a href="https://www.facebook.com/groups/189801311082174/"/><img  src="logos/facebook.png" width="30" height="30"/></a>
+		</div>
+-->
+	</div>
+	
+	<div class="tabbed">
+		<ul class="pills">
+  			<li><a href="index.html">Home</a></li>
+ 			<li><a href="team.html">Team</a></li>
+  			<li class="active"><a href="media.html">Media</a></li>
+  			<li><a href="schedule.html">Schedule</a></li>
+  			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+    <div class="container">
+    	<div class="hero-unit">
+    		<h1>Gallery</h1>
+    		<br/><br/>
+  	  		<div class="centered">
+    			<p><img src="images/Team.jpg" name="IMG" width="680" height="500" /></p>
+    			<p>
+    				<img src="images/Team_s.jpg" border="30em" onclick="imgClick('images/Team.jpg')" class="greyed" width="106" height="80"/>
+    				<img src="images/nova_s.jpg" border="30em" onclick="imgClick('images/nova.jpg')" class="greyed"/>
+    				<img src="images/pennState_s.jpg" border="30em" onclick="imgClick('images/pennState.jpg')" class="greyed"/>
+    				<img src="images/pennState2_s.jpg" border="30em" onclick="imgClick('images/pennState2.jpg')" class="greyed"/>
+    			</p>
+    			<p>
+    				<img src="images/Team2_s.jpg" border="30em" onclick="imgClick('images/Team2.jpg')" class="greyed"/>
+    				<img src="images/Team3_s.jpg" border="30em" onclick="imgClick('images/Team3.jpg')" class="greyed"/>
+    				<img src="images/Team4_s.jpg" border="30em" onclick="imgClick('images/Team4.jpg')" class="greyed"/>
+    				<img src="images/Team5_s.jpg" border="30em" onclick="imgClick('images/Team5.jpg')" class="greyed"/>
+    			</p>
+    		</div>
+    	</div>    	
+      <footer>
+        <p>Powered by <a href="http://twitter.github.com/bootstrap">Bootstrap</a></p>
+        <div class="centered">
+        	<a href="http://www.w3.org/html/logo/">
+			<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" alt="HTML5 Powered with CSS3 / Styling" title="HTML5  			Powered with CSS3 / Styling">
+			</a>
+        </div>
+      </footer>
+
+    </div> 
+  </body>
+</html>
